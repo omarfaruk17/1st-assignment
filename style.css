@@ -1,0 +1,142 @@
+*{
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 980px;
+    margin: auto;
+}
+.btn-primary{
+    border: none;
+    padding: 20px 25px;
+    color: white;
+    font-size: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+
+}
+.section-gap{
+    margin: 130px 0;
+}
+
+/* Banner style starts */
+.banner{
+    background-image: url('images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 120px 0;
+    text-align: right;
+    
+}
+.heading-primary{
+    font-weight: 700;
+    font-size: 65px;
+    color: #444343;
+
+}
+.discription-primary{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 24px 0;
+
+}
+
+/* failure-area style */
+.failure-area{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.heading-secondary{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-area ul li{
+    font-size: 16px;
+    list-style: none;
+}
+/* plan style start */
+.plan-area{
+    text-align: center;
+}
+.single-plan-area{
+    margin: 50px 0;
+    display: flex;
+    gap: 80px;
+}
+.single-plan h4{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #151414;
+}
+.single-plan p{
+    font-size: 18px;
+    color: #737272;
+}
+
+/* call-now style starts */
+.call-now{
+    background-image:  url('images/gradient2.png'), url('images/watch.png');
+    padding: 40px;
+    background-size: cover;
+}
+.call-now button{
+    border: none;
+    padding: 20px 25px;
+    color: #F15B22;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.call-now h3{
+    color: white;
+    font-weight: 700;
+    font-size: 40px
+}
+
+/* footer styre starts */
+
+.footer{
+    background: #151414;
+    color: white;
+}
+.footer-body{
+    display: flex;
+    padding: 130px 0;
+}
+.footer-text-area{
+    width: 50%;
+}
+.footer-text-area p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.social-icon img{
+    margin-right: 20px;
+}
+
+.footer-subscribe-area input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+    background: #151414;
+    border: 1px solid white;
+
+}
+.footer-subscribe-area button{
+    border: none;
+    padding: 20px 25px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
